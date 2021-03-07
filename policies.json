@@ -1,0 +1,112 @@
+{
+  "policies": {
+    "BlockAboutAddons": true,
+    "BlockAboutConfig": true,
+    "BlockAboutProfiles": true,
+    "BlockAboutSupport": true,
+    
+    "Homepage": {
+      "Locked": true,
+      "StartPage": "homepage",
+      "URL": "https://fr.wikipedia.org"
+    },
+    
+    "Bookmarks": [
+      {
+        "Favicon": "https://www.geogebra.org/favicon.ico",
+        "Placement": "menu",
+        "Title": "Geogebra",
+        "URL": "https://www.geogebra.org/?lang=fr"
+      }
+    ],
+    "DisplayBookmarksToolbar": false,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableMasterPasswordCreation": true,
+    "DisablePocket": true,
+    "DisableProfileImport": true,
+    "DisableSetDesktopBackground": true,
+    "DisableTelemetry": true,
+    "DisplayBookmarksToolbar": true,
+
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "force_installed"
+      }
+    },
+    
+    "ExtensionUpdate": true,
+    
+    "FirefoxHome": {
+      "Locked": true,
+      "Highlights": false,
+      "Pocket": false,
+      "Search": true,
+      "Snippets": false,
+      "TopSites": false
+    },
+    
+    "Preferences": {
+      "browser.newtabpage.activity-stream.default.sites": "",
+      "browser.tabs.drawInTitlebar": true
+    },
+    
+    "FlashPlugin": {
+      "Default": false
+    },
+    "NewTabPage": true,
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLogins": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "PasswordManagerEnabled": false,
+    "Permissions": {
+      "Location": {
+        "BlockNewRequests": true,
+        "Locked": true
+      }
+    },
+    "Preferences": {
+      "datareporting.policy.dataSubmissionPolicyBypassNotification": true,
+      "extensions.getAddons.showPane": false,
+      "media.gmp-gmpopenh264.enabled": true,
+      "media.gmp-widevinecdm.enabled": true,
+      "ui.key.menuAccessKeyFocuses": true
+    },
+
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "Downloads": true,
+      "FormData": true,
+      "History": true,
+      "OfflineApps": true,
+      "Sessions": true,
+      "SiteSettings": false
+    },
+    "SearchEngines": {
+      "Add": [
+        {
+          "Alias": "DDG",
+          "IconURL": "https://duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png",
+          "Method": "GET",
+          "Name": "DuckDuckGo (fr)",
+          "URLTemplate": "https://www.duckduckgo.com/?q={searchTerms}&kl=fr-fr"
+        }
+      ],
+      "Default": "DuckDuckGo (fr)",
+      "DefaultPrivate": "DuckDuckGo (fr)",
+      "PreventInstalls": true,
+      "Remove": [
+        "Amazon.fr",
+        "eBay",
+        "Qwant",
+        "DuckDuckGo"
+      ]
+    },
+    "SearchSuggestEnabled": false
+    
+  }
+}

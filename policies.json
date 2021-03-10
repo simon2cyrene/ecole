@@ -28,14 +28,12 @@
         "URL": "https://www.lemonde.fr",
         "Favicon": "https://www.lemonde.fr/dist/assets/img/logos/favicon.ico",
         "Placement": "menu",
-        "Folder": "Informations"
       },
       {
         "Title": "Geogebra",
         "URL": "https://www.geogebra.org/?lang=fr",
         "Favicon": "https://www.geogebra.org/favicon.ico",
         "Placement": "menu",
-        "Folder": "Outils pédagogiques"
       }
     ],
     

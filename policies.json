@@ -24,24 +24,8 @@
     
     "ManagedBookmarks": [
       {
-        "toplevel_name": "Sites favoris"
-      },
-      {
         "url": "https://www.geogebra.org",
         "name": "Geogebra"
-      },
-      {
-        "name": "Informations",
-        "children": [
-          {
-            "url": "https://www.lemonde.fr",
-            "name": "Le Monde"
-          },
-          {
-            "url": "https://support.mozilla.org/",
-            "name": "SUMO"
-          }
-        ]
       }
     ],
     

@@ -22,18 +22,26 @@
     
     "NewTabPage": false,
     
-    "Bookmarks": [
+    "ManagedBookmarks": [
       {
-        "Title": "Le Monde",
-        "URL": "https://www.lemonde.fr",
-        "Favicon": "https://www.lemonde.fr/dist/assets/img/logos/favicon.ico",
-        "Placement": "menu",
+        "toplevel_name": "Sites favoris"
       },
       {
-        "Title": "Geogebra",
-        "URL": "https://www.geogebra.org/?lang=fr",
-        "Favicon": "https://www.geogebra.org/favicon.ico",
-        "Placement": "menu",
+        "url": "https://www.geogebra.org",
+        "name": "Geogebra"
+      },
+      {
+        "name": "Informations",
+        "children": [
+          {
+            "url": "https://www.lemonde.fr",
+            "name": "Le Monde"
+          },
+          {
+            "url": "https://support.mozilla.org/",
+            "name": "SUMO"
+          }
+        ]
       }
     ],
     

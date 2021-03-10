@@ -17,7 +17,7 @@
       "Pocket": false,
       "Search": true,
       "Snippets": false,
-      "TopSites": false
+      "TopSites": true
     },
     
     "NewTabPage": false,

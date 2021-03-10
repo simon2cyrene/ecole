@@ -22,10 +22,12 @@
     
     "NewTabPage": false,
     
-    "ManagedBookmarks": [
+    "Bookmarks": [
       {
-        "url": "https://www.geogebra.org",
-        "name": "Geogebra"
+        "Title": "Geogebra",
+        "URL": "https://www.geogebra.org/?lang=fr",
+        "Favicon": "https://www.geogebra.org/favicon.ico",
+        "Placement": "menu"
       }
     ],
     

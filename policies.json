@@ -39,6 +39,8 @@
     
     "DisableFirefoxStudies": true,
     
+    "PasswordManagerEnabled": false,
+    
     "DisableMasterPasswordCreation": true,
     
     "DisablePocket": true,
@@ -48,6 +50,11 @@
     "DisableSetDesktopBackground": true,
     
     "DisableTelemetry": true,
+      
+     "Cookies": {
+      "ExpireAtSessionEnd": true,
+      "Locked": true
+    },
     
     "ExtensionSettings": {
       "uBlock0@raymondhill.net": {

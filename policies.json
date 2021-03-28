@@ -39,7 +39,7 @@
     
     "DisableFirefoxStudies": true,
     
-    "PasswordManagerEnabled": false,
+    "PasswordManagerEnabled": true,
     
     "DisableMasterPasswordCreation": true,
     
@@ -148,14 +148,21 @@
       "Add": [
         {
           "Alias": "DDG",
-          "IconURL": "https://duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png",
+          "IconURL": "https://duckduckgo.com/favicon.ico",
           "Method": "GET",
           "Name": "DuckDuckGo (fr)",
           "URLTemplate": "https://www.duckduckgo.com/?q={searchTerms}&kl=fr-fr"
+        },
+        {
+          "Alias": "Qwant Junior",
+          "IconURL": "https://www.qwant.com/favicon.ico",
+          "Method": "GET",
+          "Name": "Qwant Junior",
+          "URLTemplate": "https://www.qwantjunior.com/?q={searchTerms}"
         }
       ],
-      "Default": "DuckDuckGo (fr)",
-      "DefaultPrivate": "DuckDuckGo (fr)",
+      "Default": "Qwant Junior",
+      "DefaultPrivate": "Qwant Junior",
       "PreventInstalls": true,
       "Remove": [
         "Amazon.fr",

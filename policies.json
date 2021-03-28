@@ -65,6 +65,17 @@
     
     "ExtensionUpdate": true,
     
+    "Proxy": {
+		"Mode": "manual",
+		"Locked": true,
+		"HTTPProxy": "proxyecole.ac-grenoble.fr:3128",
+		"SSLProxy": "proxyecole.ac-grenoble.fr:3128",
+		"FTPProxy": "proxyecole.ac-grenoble.fr:3128",
+		"Passthrough": "127.0.0.1, localhost",
+		"AutoLogin": true,
+		"UseProxyForDNS": false
+    },
+    
 
     
     "Preferences": {
@@ -92,6 +103,10 @@
             "Value" : true,
             "Status" : "locked"
         },
+        "browser.urlbar.trimURLs": {
+			"Value" : false,
+			"Status" : "locked"
+        },	
         "datareporting.policy.dataSubmissionPolicyBypassNotification": {
             "Value" : false,
             "Status" : "locked"

@@ -155,7 +155,7 @@
         },
         {
           "Alias": "Qwant Junior",
-          "IconURL": "https://www.qwant.com/favicon.ico",
+          "IconURL": "https://www.qwantjunior.com/static/images/favicon-junior.ico",
           "Method": "GET",
           "Name": "Qwant Junior",
           "URLTemplate": "https://www.qwantjunior.com/?q={searchTerms}"

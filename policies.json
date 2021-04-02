@@ -29,6 +29,12 @@
         "Favicon": "https://www.geogebra.org/favicon.ico",
         "Placement": "menu"
       }
+      {
+        "Title": "Scratch",
+        "URL": "https://scratch.mit.edu/",
+        "Favicon": "https://scratch.mit.edu/favicon.ico",
+        "Placement": "menu"
+      }
     ],
     
     "NoDefaultBookmarks": true,

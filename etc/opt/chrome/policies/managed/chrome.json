@@ -1,5 +1,5 @@
 {
-	"ShowHomeButton": true,
+	"ShowHomeButton": false,
 	"HomepageIsNewTabPage": true,
 	"NewTabPageLocation": "https://qwantjunior.com",
 

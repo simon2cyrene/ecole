@@ -10,5 +10,5 @@ cp $CONFDIR/etc/apt/apt.conf.d/20auto-upgrades /etc/apt/apt.conf.d/20auto-upgrad
 flatpak update
 flatpak uninstall --unused
 
-cp $CONFDIR/eleve/.local/user-places.xbel /home/eleve/.local/user-places.xbel
+cp $CONFDIR/eleve/.local/share/user-places.xbel /home/eleve/.local/share/user-places.xbel
 chown -R eleve:eleve /home/eleve

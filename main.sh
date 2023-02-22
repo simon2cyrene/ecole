@@ -11,3 +11,4 @@ flatpak update
 flatpak uninstall --unused
 
 cp $CONFDIR/eleve/.local/user-places.xbel /home/eleve/.local/user-places.xbel
+chown -R eleve:eleve /home/eleve

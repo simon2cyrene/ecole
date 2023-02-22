@@ -1,8 +1,9 @@
-deb http://deb.debian.org/debian/ buster main contrib non-free
-deb http://security.debian.org/debian-security buster/updates main contrib non-free
+# base debian
+deb http://deb.debian.org/debian/ bullseye main non-free contrib
+deb http://security.debian.org bullseye-security main contrib non-free
 
-# buster-updates, previously known as 'volatile'
-deb http://deb.debian.org/debian/ buster-updates main contrib non-free
+# bullseye-updates, previously known as 'volatile'
+deb http://deb.debian.org/debian/ bullseye-updates main contrib non-free
 
-# Backports
-deb http://deb.debian.org/debian buster-backports main contrib non-free
+# bullseye-backports
+deb http://deb.debian.org/debian bullseye-backports main contrib non-free

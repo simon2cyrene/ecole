@@ -85,19 +85,7 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///">
-  <title>Root</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-root"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1615107444/4</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="trash:/">
+  <bookmark href="trash:/">
   <title>Trash</title>
   <info>
    <metadata owner="http://freedesktop.org">

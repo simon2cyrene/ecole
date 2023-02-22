@@ -134,7 +134,7 @@
   </info>
  </bookmark>
  <bookmark href="smb://serveur01/eleve/Classe 10">
-  <title>Classe 10 Samba</title>
+  <title>Classe 10</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="network-workgroup"/>

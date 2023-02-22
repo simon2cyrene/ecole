@@ -1,0 +1,96 @@
+{
+	"ShowHomeButton": true,
+	"HomepageIsNewTabPage": true,
+	"NewTabPageLocation": "https://qwantjunior.com",
+
+	"ExtensionSettings": {
+		
+		"*": {
+		"installation_mode": "removed"
+		},
+	
+		"cjpalhdlnbpafiamejdnhcphjbkeiagm": {
+		"installation_mode": "force_installed",
+		"update_url": "https://clients2.google.com/service/update2/crx",
+		"toolbar_pin": "force_pinned"
+		}
+	},
+	
+	"DefaultSearchProviderEnabled": true,
+	"DefaultSearchProviderName": "Qwant Junior",
+	"DefaultSearchProviderIconURL": "https://www.qwantjunior.com/static/images/favicon-junior-196x196.png",
+	"DefaultSearchProviderSearchURL": "https://www.qwantjunior.com/?q={searchTerms}",
+	"DefaultSearchProviderContextMenuAccessAllowed": true,
+	"ForceGoogleSafeSearch": true,
+	
+	"ProxySettings": {
+	"ProxyMode": "fixed_servers",
+	"ProxyServer": "proxyecole.ac-grenoble.fr:3128"
+	},
+	
+	
+	"PasswordManagerEnabled": false,
+	
+	"BrowserAddPersonEnabled": false,
+	
+	"BrowserGuestModeEnabled": false,
+	
+	"LacrosSecondaryProfilesAllowed": false,
+	
+	"SyncDisabled": true,
+	
+	"BrowserSignin": 0,
+	
+	"AutofillAddressEnabled": false,
+	
+	"AutofillCreditCardEnabled": false,
+	
+	"SearchSuggestEnabled": false,
+
+	
+	"ClearBrowsingDataOnExitList": [
+		"browsing_history",
+		"download_history",
+		"cookies_and_other_site_data",
+		"cached_images_and_files",
+		"autofill",
+		"site_settings",
+		"hosted_app_data"
+		],
+	
+	"BookmarkBarEnabled": true,
+	
+	"BrowserNetworkTimeQueriesEnabled": false,
+	
+	"DefaultBrowserSettingEnabled": true,
+	
+	"ForceYouTubeRestrict": 2,
+	
+	"MetricsReportingEnabled": false,
+	"NetworkPredictionOptions": 2,
+	"EnterpriseRealTimeUrlCheckMode": 0,
+	"UrlKeyedAnonymizedDataCollectionEnabled": false,
+	"SpellCheckServiceEnabled": false,
+	"PaymentMethodQueryEnabled": false,
+	"SafeBrowsingProtectionLevel": 1,
+	"SafeBrowsingExtendedReportingEnabled": false,
+	
+	"ManagedBookmarks": [
+		{
+		"toplevel_name": "Favoris"
+		},
+		{
+		"name": "Orthodéfi",
+		"url": "https://pragmatice.net/pragmactivites/orthodefi/app/index.html"
+		},
+		{
+		"name": "Mon École",
+		"url": "https://monecole.fr/"
+		},
+		{
+		"name": "GeoGebra",
+		"url": "https://www.geogebra.org/?lang=fr"
+		}
+		]
+}
+

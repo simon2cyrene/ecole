@@ -1,0 +1,183 @@
+{
+  "policies": {
+  
+    "BlockAboutAddons": true,
+    "BlockAboutConfig": true,
+    "BlockAboutProfiles": true,
+    "BlockAboutSupport": true,
+    
+    "Homepage": {
+      "Locked": true,
+      "StartPage": "homepage"
+    },
+    
+    "FirefoxHome": {
+      "Locked": true,
+      "Highlights": false,
+      "Pocket": false,
+      "Search": true,
+      "Snippets": false,
+      "TopSites": false
+    },
+    
+    "NewTabPage": false,
+    
+    "Bookmarks": [
+      {
+        "Title": "Geogebra",
+        "URL": "https://www.geogebra.org/?lang=fr",
+        "Favicon": "https://www.geogebra.org/favicon.ico",
+        "Placement": "menu"
+      },
+      {
+        "Title": "Scratch",
+        "URL": "https://scratch.mit.edu/",
+        "Favicon": "https://scratch.mit.edu/favicon.ico",
+        "Placement": "menu"
+      }
+    ],
+    
+    "NoDefaultBookmarks": true,
+    
+    "DisableFeedbackCommands": true,
+    
+    "DisableFirefoxAccounts": true,
+    
+    "DisableFirefoxStudies": true,
+    
+    "PasswordManagerEnabled": true,
+    
+    "DisableMasterPasswordCreation": true,
+    
+    "DisablePocket": true,
+    
+    "DisableProfileImport": true,
+    
+    "DisableSetDesktopBackground": true,
+    
+    "DisableTelemetry": true,
+      
+     "Cookies": {
+      "ExpireAtSessionEnd": true,
+      "Locked": true
+    },
+    
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "force_installed"
+      }
+    },
+    
+    "ExtensionUpdate": true,
+    
+    "Proxy": {
+		"Mode": "manual",
+		"Locked": true,
+		"HTTPProxy": "proxyecole.ac-grenoble.fr:3128",
+		"SSLProxy": "proxyecole.ac-grenoble.fr:3128",
+		"FTPProxy": "proxyecole.ac-grenoble.fr:3128",
+		"Passthrough": "127.0.0.1, localhost",
+		"AutoLogin": true,
+		"UseProxyForDNS": false
+    },
+    
+
+    
+    "Preferences": {
+        "browser.toolbars.bookmarks.visibility": {
+            "Value": "newtab",
+            "Status": "locked"
+        },
+        "browser.newtabpage.activity-stream.default.sites": {
+            "Value": "",
+            "Status": "locked"
+        },
+        "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts": {
+            "Value": false,
+            "Status": "locked"
+        },
+        "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.havePinned": {
+            "Value": "",
+            "Status": "locked"
+        },
+        "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines": {
+            "Value": "",
+            "Status": "locked"
+        },
+        "browser.tabs.drawInTitlebar": {
+            "Value" : true,
+            "Status" : "locked"
+        },
+        "browser.urlbar.trimURLs": {
+			"Value" : false,
+			"Status" : "locked"
+        },	
+        "datareporting.policy.dataSubmissionPolicyBypassNotification": {
+            "Value" : false,
+            "Status" : "locked"
+        },
+        "media.gmp-gmpopenh264.enabled": {
+            "Value" : true,
+            "Status" : "locked"
+        },
+        "media.gmp-widevinecdm.enabled": {
+            "Value" : true,
+            "Status" : "locked"
+        }
+    },
+    
+    "FlashPlugin": {
+      "Default": false
+    },
+
+    
+    "Permissions": {
+      "Location": {
+        "BlockNewRequests": true,
+        "Locked": true
+      }
+    },
+
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "Downloads": true,
+      "FormData": true,
+      "History": true,
+      "OfflineApps": true,
+      "Sessions": true,
+      "SiteSettings": false
+    },
+    
+    "SearchEngines": {
+      "Add": [
+        {
+          "Alias": "DDG",
+          "IconURL": "https://duckduckgo.com/favicon.ico",
+          "Method": "GET",
+          "Name": "DuckDuckGo (fr)",
+          "URLTemplate": "https://www.duckduckgo.com/?q={searchTerms}&kl=fr-fr"
+        },
+        {
+          "Alias": "Qwant Junior",
+          "IconURL": "https://www.qwantjunior.com/static/images/favicon-junior.ico",
+          "Method": "GET",
+          "Name": "Qwant Junior",
+          "URLTemplate": "https://www.qwantjunior.com/?q={searchTerms}"
+        }
+      ],
+      "Default": "Qwant Junior",
+      "DefaultPrivate": "Qwant Junior",
+      "PreventInstalls": true,
+      "Remove": [
+        "Amazon.fr",
+        "eBay",
+        "Qwant",
+        "DuckDuckGo"
+      ]
+    },
+    "SearchSuggestEnabled": false
+    
+  }
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-until [ "$(ping -q -c 4 8.8.8.8)" = "0" ]
+until [ "$(ping -q -c 4 8.8.8.8)" ]
 	do
 		sleep 1s
 	done

@@ -8,5 +8,3 @@ until [ "$(ping -q -c 4 8.8.8.8)" ]
 cd /root/config/ecole
 git pull
 bash /root/config/ecole/main.sh
-
-

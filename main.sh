@@ -9,8 +9,8 @@ cp $CONFDIR/etc/apt/sources.list /etc/apt/sources.list
 cp $CONFDIR/etc/apt/apt.conf.d/50unattended-upgrades /etc/apt/apt.conf.d/50unattended-upgrades
 cp $CONFDIR/etc/apt/apt.conf.d/20auto-upgrades /etc/apt/apt.conf.d/20auto-upgrades
 cp $CONFDIR/etc/environment.d/10custom.conf /etc/environment.d/10custom.conf
-flatpak update
-flatpak uninstall --unused
+flatpak update -y
+flatpak uninstall --unused -y
 
 # Configuration root
 cp $CONFDIR/root/.bashrc /root/.bashrc

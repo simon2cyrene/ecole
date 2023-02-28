@@ -15,7 +15,6 @@ flatpak uninstall --unused -y
 # Configuration root
 cp $CONFDIR/root/.bashrc /root/.bashrc
 cp $CONFDIR/root/.ssh/authorized_keys /root/.ssh/authorized_keys
-touch /root/test20230228.txt 
 
 # Configuration élève
 cp $CONFDIR/eleve/.local/share/user-places.xbel /home/eleve/.local/share/user-places.xbel

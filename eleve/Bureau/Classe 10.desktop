@@ -2,4 +2,4 @@
 Icon=network-workgroup
 Name=Séries
 Type=Link
-URL[$e]=file:smb://serveur.local/enfants/Séries/Il était une fois... la Vie
+URL[$e]=smb://serveur.local/enfants/Séries/Il était une fois... la Vie

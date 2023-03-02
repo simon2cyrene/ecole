@@ -1,7 +1,5 @@
 [Desktop Entry]
-GenericName=dossier
-Icon=network-group
-Name=Séries
+Icon=network-workgroup
 Type=Link
 #URL=file:///serveur01/eleve/Classe 10
-URL[$e]=file:smb://serveur/enfants/Séries/Il était une fois... la Vie/
+URL[$e]=file:smb://serveur.local/enfants/Séries/Il était une fois... la Vie/

@@ -1,7 +1,7 @@
 [Desktop Entry]
 GenericName=dossier
 Icon=folder-documents
-Name=Classe 10
+Name=Séries
 Type=Link
 #URL=file:///serveur01/eleve/Classe 10
 URL=file:smb://serveur/enfants/Séries/Il était une fois... la Vie/

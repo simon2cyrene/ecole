@@ -1,5 +1,5 @@
 [Desktop Entry]
 Icon=network-workgroup
-Name=Séries
+Name=Classe 10
 Type=Link
-URL[$e]=smb://serveur.local/enfants/Séries/Il était une fois... la Vie
+URL[$e]=smb://serveur01/eleve/Classe 10

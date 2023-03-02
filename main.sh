@@ -2,14 +2,9 @@
 
 CONFDIR="/opt/config/ecole"
 
-if [ -d "$CONFDIR" ]
+if [ -d "/root/config" ]
 	then
-		cd $CONFDIR ;
-		git pull ;
-	else
-		mkdir /opt/config ;
-		cd /opt/config ;
-		git clone https://github.com/simon2cyrene/ecole.git ;
+		rm -R /root/config ;
 fi
 
 

@@ -26,5 +26,5 @@ cp $CONFDIR/root/.ssh/authorized_keys /root/.ssh/authorized_keys
 
 sudo -u eleve cp $CONFDIR/eleve/.local/share/user-places.xbel /home/eleve/.local/share/user-places.xbel
 chmod -R 700 /home/eleve/Bureau
-sudo -u eleve rsync -r $CONFDIR/eleve/Bureau /home/eleve/
+sudo -u eleve rsync -r --delete $CONFDIR/eleve/Bureau /home/eleve/
 chmod -R 500 /home/eleve/Bureau
